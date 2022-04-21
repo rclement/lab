@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyterlite = {extras = ["all"], version = "==0.1.0b5"}
+
+[dev-packages]
+pandas = "==1.4.2"
+
+[requires]
+python_version = "3.9"
