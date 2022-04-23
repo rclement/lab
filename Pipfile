@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+jupyterlab-language-pack-fr-FR = "==3.3.post2"
 jupyterlite = {extras = ["all"], version = "==0.1.0b5"}
 
 [dev-packages]
