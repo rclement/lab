@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 jupyterlab-language-pack-fr-FR = "==3.3.post3"
+jupyterlab-webrtc-docprovider = "==0.1.1"
 jupyterlite = {extras = ["all"], version = "==0.1.0b5"}
 
 [dev-packages]
