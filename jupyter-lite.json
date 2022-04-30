@@ -10,6 +10,13 @@
       {
         "extension": "./extension",
         "liteExtension": false,
+        "load": "static/remoteEntry.8dcc730aedc487734a23.js",
+        "name": "@jupyterlite/webrtc-docprovider",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.aa1060b2d1221f8e5688.js",
         "name": "jupyterlab_pygments",
         "style": "./style"
