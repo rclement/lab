@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "593ee5c443e1e15a592602eabc130bcab5d946881d244742540ba1000eb3aa58"
+            "sha256": "c3fcc2643c0a2288650972c179336535631fe051b75cd5aba5db0fb69018f03b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -23,14 +23,6 @@
             ],
             "markers": "python_full_version >= '3.6.2'",
             "version": "==3.5.0"
-        },
-        "appnope": {
-            "hashes": [
-                "sha256:02bd91c4de869fbb1e1c50aafc4098827a7a54ab2f39d9dcba6c9547ed920e24",
-                "sha256:265a455292d0bd8a72453494fa24df5a11eb18373a60c7c0430889f22548605e"
-            ],
-            "markers": "sys_platform == 'darwin'",
-            "version": "==0.1.3"
         },
         "argon2-cffi": {
             "hashes": [
@@ -403,11 +395,11 @@
                 "all"
             ],
             "hashes": [
-                "sha256:ad51d4de8cc09414ecd794882c7b8ab943ec3bfe0287b5553aa168731f84253a",
-                "sha256:b49c25cdadc6e8c17bd6b57b0e57b14e50ff8cdd286fe7f177b3e2332e02d97d"
+                "sha256:7100889ee5925d117415a858dae4ecc6b01fae607f6259bef68c7b188805125a",
+                "sha256:ac1caeaea0ef23f3e61e4b4a6c643516a33ea4ae2de772295cb483c873aadb31"
             ],
             "index": "pypi",
-            "version": "==0.1.0b5"
+            "version": "==0.1.0b6"
         },
         "markupsafe": {
             "hashes": [
