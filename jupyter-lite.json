@@ -17,6 +17,20 @@
       {
         "extension": "./extension",
         "liteExtension": false,
+        "load": "static/remoteEntry.8f896d6ad92823566c46.js",
+        "name": "jupyterlab-drawio",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
+        "load": "static/remoteEntry.5a1869d4304cb9223cfc.js",
+        "name": "jupyterlab-tour",
+        "style": "./style"
+      },
+      {
+        "extension": "./extension",
+        "liteExtension": false,
         "load": "static/remoteEntry.aa1060b2d1221f8e5688.js",
         "name": "jupyterlab_pygments",
         "style": "./style"
@@ -26,7 +40,14 @@
     "fullMathjaxUrl": "./static/jupyter_server_mathjax/MathJax.js",
     "fullStaticUrl": "./build",
     "licensesUrl": "./lab/api/licenses",
-    "mathjaxConfig": "TeX-AMS-MML_HTMLorMML-full,Safe"
+    "mathjaxConfig": "TeX-AMS-MML_HTMLorMML-full,Safe",
+    "settingsOverrides": {
+      "@jupyterlab/docmanager-extension:plugin": {
+        "defaultViewers": {
+          "markdown": "Markdown Preview"
+        }
+      }
+    }
   },
   "jupyter-lite-schema-version": 0
 }
