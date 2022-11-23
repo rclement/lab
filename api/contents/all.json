@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-11-23T09:22:46.760148Z",
+      "created": "2022-11-23T10:05:00.574650Z",
       "format": null,
-      "last_modified": "2022-11-23T09:22:04.131989Z",
+      "last_modified": "2022-11-23T10:04:20.942950Z",
       "mimetype": "text/markdown",
       "name": "document.md",
       "path": "document.md",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-11-23T09:22:46.760148Z",
+      "created": "2022-11-23T10:05:00.574650Z",
       "format": null,
-      "last_modified": "2022-11-23T09:22:04.131989Z",
+      "last_modified": "2022-11-23T10:04:20.942950Z",
       "mimetype": null,
       "name": "welcome.ipynb",
       "path": "welcome.ipynb",
@@ -25,9 +25,9 @@
       "writable": true
     }
   ],
-  "created": "2022-11-23T09:22:46.760148Z",
+  "created": "2022-11-23T10:05:00.574650Z",
   "format": "json",
-  "last_modified": "2022-11-23T09:22:46.760148Z",
+  "last_modified": "2022-11-23T10:05:00.574650Z",
   "mimetype": null,
   "name": "",
   "path": "",
