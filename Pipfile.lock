@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "20814049187f34102a3142ecd6a3cb020d2e6afe77d59b0adaecd9b9e364933e"
+            "sha256": "b54571de2a1f88587d617eb8cf7c207da20e78307c81f6f050fb9135b6bf6ca2"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -381,11 +381,11 @@
         },
         "ipython": {
             "hashes": [
-                "sha256:5b54478e459155a326bf5f42ee4f29df76258c0279c36f21d71ddb560f88b156",
-                "sha256:735cede4099dbc903ee540307b9171fbfef4aa75cfcacc5a273b2cda2f02be04"
+                "sha256:1c183bf61b148b00bcebfa5d9b39312733ae97f6dad90d7e9b4d86c8647f498c",
+                "sha256:a950236df04ad75b5bc7f816f9af3d74dc118fd42f2ff7e80e8e60ca1f182e2d"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==8.11.0"
+            "version": "==8.12.0"
         },
         "ipython-genutils": {
             "hashes": [
@@ -502,11 +502,11 @@
         },
         "jupyterlab-language-pack-fr-fr": {
             "hashes": [
-                "sha256:55e1a950e1f45c33d4fee5eeb43b128f258b50fc4860e9f2ec383a251af1f856",
-                "sha256:f04a2c4ff7196e7fdeeb87b87b2dd478e2b3ce0a2aaf0b37f2d7422f0a925e58"
+                "sha256:bbd94715c5869de6991217ae7d243560bd18d7305b2e8c29297546ddf27095ba",
+                "sha256:e1c1e7480e1bab8bc3f5118211984c0ba9f436557aecfd2ec66ff3789dff024c"
             ],
             "index": "pypi",
-            "version": "==3.6.post0"
+            "version": "==3.6.post1"
         },
         "jupyterlab-pygments": {
             "hashes": [
@@ -1115,6 +1115,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==5.9.0"
+        },
+        "typing-extensions": {
+            "hashes": [
+                "sha256:5cb5f4a79139d699607b3ef622a1dedafa84e115ab0024e0d9c044a9479ca7cb",
+                "sha256:fb33085c39dd998ac16d1431ebc293a8b3eedd00fd4a32de0ff79002c19511b4"
+            ],
+            "markers": "python_version < '3.10'",
+            "version": "==4.5.0"
         },
         "uri-template": {
             "hashes": [
