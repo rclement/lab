@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "527e24657b867d4f02a6bdeaad1c46a5040bca1628a2431b49f7de1111ebe1cf"
+            "sha256": "efd1dd69afeb53fd553e7c8dbdb15531ed83fff0649eca00a7f59f146c0add70"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -544,27 +544,27 @@
                 "all"
             ],
             "hashes": [
-                "sha256:1df1afd1ea063f3bd1329e3b75f3955c1d2380ed9ffaee502842de4f4edee532",
-                "sha256:d08658ad432b81a486a64fb485fbbba2110fd7db6193824262f4d394d84fdad8"
+                "sha256:6e9949bc51247368bea8a0136256694255ace315e6e057020d29b36fe92c3c38",
+                "sha256:f0bf867083eb42602bd242e3dae08efde1df75b89e1a30cb53130be44ee520cc"
             ],
             "index": "pypi",
-            "version": "==0.1.0rc0"
+            "version": "==0.1.0"
         },
         "jupyterlite-core": {
             "hashes": [
-                "sha256:176d4dbec845a1ce1fd7cf03adf22aa176e618f113756381d822b19aa7454824",
-                "sha256:f90067d5756f982663777c31bfc4e54dfbfaf97a4ff0ea7f25f7909ebff9d53b"
+                "sha256:2f17afa282447594cb38f7a1d2619ceface28d8f4747e038790cac22c394e804",
+                "sha256:fea7ffe880f6efb16cd39855dd459ec3cf87b238de076dae518033926af1150a"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==0.1.0rc0"
+            "version": "==0.1.0"
         },
         "jupyterlite-javascript-kernel": {
             "hashes": [
-                "sha256:63956a1dc82fb442a0f9656b47d6f4e17b53eb6533839e157f89c15862e11e57",
-                "sha256:a0ea928d165941f168a5feced250cd18f65e204cd0fcaca45eccb36c31e9dded"
+                "sha256:297116be6642c2f72b0b0bf3d6505efcd792b322139174d0107ae7ec4daa64f4",
+                "sha256:c8201387b408179c2b4355f7a2599d204aa0c37f960675a82857a4937d7cde15"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==0.1.0rc0"
+            "version": "==0.1.0"
         },
         "jupyterlite-pyodide-kernel": {
             "hashes": [
@@ -654,11 +654,11 @@
         },
         "nbclassic": {
             "hashes": [
-                "sha256:312b3f7d7ff2e6c261d51799bb12e6493498ab47d3469d3a01015d5533fd4d2b",
-                "sha256:df78e4ba143f35084ad060deec16cb1d4839dde47bfdbc4232beb7071a6d70ea"
+                "sha256:47791b04dbcb89bf7fde910a3d848fd4793a4248a8936202453631a87da37d51",
+                "sha256:d2c91adc7909b0270c73e3e253d3687a6704b4f0a94bc156a37c85eba09f4d37"
             ],
             "markers": "python_version >= '3.7'",
-            "version": "==0.5.4"
+            "version": "==0.5.5"
         },
         "nbclient": {
             "hashes": [
