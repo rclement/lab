@@ -11,7 +11,7 @@ jupyterlab-webrtc-docprovider = "==0.1.1"
 jupyterlite = {extras = ["all"], version = "==0.1.0"}
 
 [dev-packages]
-pandas = "==2.0.0"
+pandas = "==2.0.1"
 
 [requires]
 python_version = "3.9"
