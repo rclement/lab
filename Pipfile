@@ -8,7 +8,7 @@ jupyterlab-drawio = "==0.9.0"
 jupyterlab-language-pack-fr-FR = "==4.0.post1"
 jupyterlab-tour = "==3.1.4"
 jupyterlab-webrtc-docprovider = "==0.1.1"
-jupyterlite = {extras = ["all"], version = "==0.1.0"}
+jupyterlite = {extras = ["all"], version = "==0.1.1"}
 
 [dev-packages]
 pandas = "==2.0.3"
