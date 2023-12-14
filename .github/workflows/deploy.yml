@@ -34,7 +34,7 @@ jobs:
         run: |
           pipenv run jupyter lite build
       - name: Upload build artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: jupyterlite-dist-${{ github.run_number }}
           path: ./_output
