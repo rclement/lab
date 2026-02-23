@@ -1,6 +1,7 @@
 # JupyterLite Static Lab
 
 ```bash
-jupyter lite build
-jupyter lite serve
+uv sync --dev
+uv run jupyter lite build
+uv run jupyter lite serve
 ```
