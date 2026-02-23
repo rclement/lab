@@ -680,15 +680,17 @@ wheels = [
 ]
 
 [[package]]
-name = "jupyterlite"
+name = "jupyterlite-core"
 version = "0.7.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "jupyterlite-core" },
+    { name = "doit" },
+    { name = "jupyter-core" },
+    { name = "pycparser", marker = "platform_python_implementation == 'PyPy'" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/16/78/46eeed8581ded7c45c52f16c5be5109752235a40daae40aca65805139133/jupyterlite-0.7.2.tar.gz", hash = "sha256:d9dd7c562cf94ee66c576fc642ebe6989394a90280eaf9a09780daccad9054a9", size = 6065, upload-time = "2026-02-23T14:00:04.052Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ec/d5/cb3601962de578536bd5826649aeae6a5f6579a2b1a3f6bf4711f8b48f62/jupyterlite_core-0.7.2.tar.gz", hash = "sha256:fb5bb3d133543597e4b315342bd8d83da7ed44363b587b4643c676e9e4648a5b", size = 16190551, upload-time = "2026-02-23T14:01:08.284Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/f9/55/572bcfb9f9343d74a944ac61e456113983cbf47d91193b723dd771274239/jupyterlite-0.7.2-py3-none-any.whl", hash = "sha256:647a53d24bca870bd3b0e5c6d22d95f1df758bdd6923a33f4520dbbeec737d3d", size = 6700, upload-time = "2026-02-23T14:00:02.357Z" },
+    { url = "https://files.pythonhosted.org/packages/42/6e/4c7db132518af259a124be29b01d63729888fdcb4bb98598fb448938bf81/jupyterlite_core-0.7.2-py3-none-any.whl", hash = "sha256:9b8d245848c8a99e97c5f76702e1ccf15ac0c91eb927055806a97298ee03acab", size = 16203093, upload-time = "2026-02-23T14:01:05.637Z" },
 ]
 
 [package.optional-dependencies]
@@ -704,17 +706,16 @@ all = [
 ]
 
 [[package]]
-name = "jupyterlite-core"
-version = "0.7.2"
+name = "jupyterlite-pyodide-kernel"
+version = "0.7.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
-    { name = "doit" },
-    { name = "jupyter-core" },
-    { name = "pycparser", marker = "platform_python_implementation == 'PyPy'" },
+    { name = "jupyterlite-core" },
+    { name = "pkginfo" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ec/d5/cb3601962de578536bd5826649aeae6a5f6579a2b1a3f6bf4711f8b48f62/jupyterlite_core-0.7.2.tar.gz", hash = "sha256:fb5bb3d133543597e4b315342bd8d83da7ed44363b587b4643c676e9e4648a5b", size = 16190551, upload-time = "2026-02-23T14:01:08.284Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f2/26/6fe82895db3ad85e3ccf1ce7155f89ec910db8a8e3267dca54adba9fbbfa/jupyterlite_pyodide_kernel-0.7.0.tar.gz", hash = "sha256:4c2b6763518faf6d72eea91b2db31e215fbc9aa3099cc3cfa5a2866cbd1c380e", size = 541202, upload-time = "2025-11-26T10:21:40.207Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/42/6e/4c7db132518af259a124be29b01d63729888fdcb4bb98598fb448938bf81/jupyterlite_core-0.7.2-py3-none-any.whl", hash = "sha256:9b8d245848c8a99e97c5f76702e1ccf15ac0c91eb927055806a97298ee03acab", size = 16203093, upload-time = "2026-02-23T14:01:05.637Z" },
+    { url = "https://files.pythonhosted.org/packages/a4/36/495b6357560f6b680fa4ffcefb85e646594ff29c6cb182028569847de156/jupyterlite_pyodide_kernel-0.7.0-py3-none-any.whl", hash = "sha256:02174ce22a3ac8e6c2a7e9206aa13afba77da15fc75237b8721b4548fb68c487", size = 555801, upload-time = "2025-11-26T10:21:37.763Z" },
 ]
 
 [[package]]
@@ -725,7 +726,8 @@ dependencies = [
     { name = "jupyterlab-language-pack-fr-fr" },
     { name = "jupyterlab-tour" },
     { name = "jupyterlab-webrtc-docprovider" },
-    { name = "jupyterlite", extra = ["all"] },
+    { name = "jupyterlite-core", extra = ["all"] },
+    { name = "jupyterlite-pyodide-kernel" },
 ]
 
 [package.dev-dependencies]
@@ -738,7 +740,8 @@ requires-dist = [
     { name = "jupyterlab-language-pack-fr-fr", specifier = "==4.5.post1" },
     { name = "jupyterlab-tour", specifier = "==4.0.1" },
     { name = "jupyterlab-webrtc-docprovider", specifier = "==0.1.1" },
-    { name = "jupyterlite", extras = ["all"], specifier = "==0.7.2" },
+    { name = "jupyterlite-core", extras = ["all"], specifier = "==0.7.2" },
+    { name = "jupyterlite-pyodide-kernel", specifier = "==0.7.0" },
 ]
 
 [package.metadata.requires-dev]
