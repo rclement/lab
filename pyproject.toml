@@ -3,7 +3,7 @@ name = "lab"
 version = "0.1.0"
 requires-python = "==3.14.*"
 dependencies = [
-  "jupyterlab-language-pack-fr-fr==4.5.post2",
+  "jupyterlab-language-pack-fr-fr==4.5.post3",
   "jupyterlab-tour==4.0.1",
   "jupyterlab-webrtc-docprovider==0.1.1",
   "jupyterlite-core[all]==0.7.4",
