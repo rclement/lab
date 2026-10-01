@@ -663,11 +663,11 @@ wheels = [
 
 [[package]]
 name = "jupyterlab-tour"
-version = "4.0.1"
+version = "4.1.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/61/fa/a512426916ca282b7b486d3ed8be290abde9e21ef4d0eec7bb90f5be1a4f/jupyterlab_tour-4.0.1.tar.gz", hash = "sha256:51d860f872775ce7d85dbfd215fbab1d2c79f5c0c1a902a1d46e4bb642090cbd", size = 565212, upload-time = "2024-02-29T16:31:48.607Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/73/86/4f680f2392cb121bd16b8796c49b50c035a71a0f596a6e8d4ffbaf7115be/jupyterlab_tour-4.1.0.tar.gz", hash = "sha256:de79689fffc15c3b4f4771927a8effffdfc68cd8698184ac1cd3417d50f24a41", size = 573662, upload-time = "2026-09-30T12:02:39.663Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/54/e2/f95b8a2cb88f8c48feabb77529f06534c5ef7eb27821b8f9d69cb6df8d20/jupyterlab_tour-4.0.1-py3-none-any.whl", hash = "sha256:a1590e6b5e206ff29869ac2020833f61d74074bde2f6739515280a76511b3b54", size = 103993, upload-time = "2024-02-29T16:31:46.34Z" },
+    { url = "https://files.pythonhosted.org/packages/50/b6/2a6d50e9c47008a7227643459cf07537ff4c6b406bdebf86c8d9cd56c4e5/jupyterlab_tour-4.1.0-py3-none-any.whl", hash = "sha256:d92a726bc22ee69a503f2bd57f8b364c5cc148e5b4b9256b2ed1eb1291ac8c24", size = 103421, upload-time = "2026-09-30T12:02:38.057Z" },
 ]
 
 [[package]]
@@ -738,7 +738,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "jupyterlab-language-pack-fr-fr", specifier = "==4.5.post3" },
-    { name = "jupyterlab-tour", specifier = "==4.0.1" },
+    { name = "jupyterlab-tour", specifier = "==4.1.0" },
     { name = "jupyterlab-webrtc-docprovider", specifier = "==0.1.1" },
     { name = "jupyterlite-core", extras = ["all"], specifier = "==0.7.5" },
     { name = "jupyterlite-pyodide-kernel", specifier = "==0.7.2" },
